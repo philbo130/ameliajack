@@ -1,0 +1,205 @@
+* {
+	margin: 0 auto;
+	padding: 0;
+}
+
+body {
+	background-image: url('img/ameliaGameBack.png');
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	font-family: 'Bad Script';
+}
+
+header {
+	height: 117px;
+	padding-top: 5px;
+	padding-bottom: -20px;
+	margin-left: 14%;
+	margin-right: 3%;
+}
+
+h2 {
+	padding: 0;
+	overflow: auto;
+	margin-top: -20px;
+}
+
+#banner {
+	max-height: 40px;
+	margin: 10px 5px 0px 400px;
+}
+
+#wrapper {
+	width: 100%;
+	/*border: solid #fff 1px;*/
+	padding: 10px;
+	background-color: #fff #fff #fff .5;
+}
+
+.ameliaContainer {
+ 	width: 90%;
+ 	height: 220px;
+ 	overflow: auto;
+ 	/*border: solid white 1px;*/
+	padding: 1px;
+	display: inline-block;
+ }
+
+ #ameliaCandyContainer {
+ 	width: 30%;
+ 	height: 200px;
+ 	/*border: solid white 1px;*/
+ 	padding: 1px;
+ 	float: left;
+ }
+
+#ameliaCardContainer {
+	width: 45%;
+	height: 200px;
+	margin-right: 20%;
+	/*border: solid white 1px;*/
+ 	float: right;
+}
+
+ #candy{
+ 	width: 60px;
+ 	padding: 1px;
+ 	margin: 1px;
+ 	/*display: inline-block;*/
+ }
+
+.table {
+	width: 90%;
+	height: 200px;
+	/*border: solid white 1px;*/
+	padding: 10px;
+	display: inline-block;
+}
+
+.cardContainer {
+	width:18%;
+	height: 190px;
+	/*border: solid white 1px;*/
+	padding: 5px;
+	float: left;
+}
+
+.buttonContainer {
+ 	width: 10%;
+ 	height: 265px;
+ 	overflow: auto;
+ 	/*border: solid white 1px;*/
+	padding: 10px;
+	float: right;
+	margin-top: -170px;
+ }
+
+.playerContainer {
+ 	width: 90%;
+ 	height: 220px;
+ 	overflow: auto;
+ 	/*border: solid white 1px;*/
+	padding: 5px;
+ }
+
+ #playerCandyContainer {
+ 	width: 30%;
+ 	height: 200px;
+ 	/*border: solid white 1px;*/
+ 	margin: 1px;
+ 	float: right;
+ }
+
+ #playerCardContainer {
+	width: 45%;
+	height: 200px;
+	margin-left: 20%;
+	/*border: solid white 1px;*/
+ 	float: left;
+}
+
+button {
+	font-family: 'Bad Script';
+	font-size: 30px;
+	font-weight: bold;
+	width: 80px;
+	height:80px;
+	border-radius:50px;
+	margin: 5px;
+	padding: 10px;
+	background-image: url("img/chocheart.png");
+	background-position: center;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+button:hover {
+	transform:scale(1.1);
+ }
+ 
+ #start, #reveal {
+ 	float: right;
+ 	margin-right: 20px;
+ }
+
+button:hover {
+	background-color: #FF69B4;
+
+}
+
+.card {
+	background-color: white;
+	width: 85px;
+	height: 130px;
+	border: solid brown 1px;
+	padding: 2px;
+	font-size: 2em;
+	font-weight: bold;
+	border-radius: 8px;
+	box-shadow: 10px 10px 5px #888888;
+	display: inline-block;
+	font-family: arial;
+}
+	
+ .card:hover {
+	transform:scale(1.1);
+ }
+
+
+#back {
+ 	content: url("img/ameliajack_card.png");
+ 	display:inline-block;
+ 	background-size: cover; 
+ }
+
+ .hearts {
+ 	position: relative;
+ 	float: top;
+ 	background-image:url("img/heart.png");
+ }
+
+ .spades {
+ 	position: relative;
+ 	float: top;
+ 	background-image:url("img/spade.png");
+ }
+
+ .clubs {
+ 	position: relative;
+ 	float: top;
+ 	background-image:url("img/club.png");
+ }
+
+ .diamonds {
+ 	position: relative;
+ 	float: top;
+ 	background-image:url("img/diamond.png");
+ }
+
+ /*.card img {
+	height: 20px;
+	width: 20px;
+	text-align: left;
+	margin-right: 39px;
+}*/
+
