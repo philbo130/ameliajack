@@ -25,3 +25,6 @@ Age range: 5-8
 - Creates randomly generated cards and records the values
 
 - SetTimeout functions used to accomodate children's math pace
+
+
+http://philbo130.github.io/ameliajack/
